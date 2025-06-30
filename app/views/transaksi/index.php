@@ -52,7 +52,7 @@
   </div>
 
   <!-- *************** TOMBOL "TAMBAH TRANSAKSI" *************** -->
-  <button id="openModalBtn" class="tw-px-4 tw-rounded mb-4 cursor-pointer self-start" type="button">+ Tambah Transaksi</button>
+  <button id="openModalBtn" class="tw-px-4 tw-rounded cursor-pointer self-start" type="button">+ Tambah Transaksi</button>
 
   <!-- *************** CHART TRANSAKSI *************** -->
   <canvas id="transaksiChart" height="80px" class="mb-8"></canvas>

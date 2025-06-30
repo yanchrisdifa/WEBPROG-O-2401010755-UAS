@@ -24,7 +24,7 @@ $(document).ready(function () {
 
       const ctx = document.getElementById('transaksiChart').getContext('2d');
       new Chart(ctx, {
-        type: 'line',
+        type: 'bar',
         data: {
           labels: labels,
           datasets: [
@@ -46,10 +46,15 @@ $(document).ready(function () {
         },
         options: {
           responsive: true,
-          scales: {
-            y: { beginAtZero: true }
+          plugins: {
+            legend: {
+              position: 'top',
+            },
+            title: {
+              display: true,
+            }
           }
-        }
+        },
       });
     }
   });
