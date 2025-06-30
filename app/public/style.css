@@ -1,0 +1,75 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  background-color: #101828;
+  color: #ffffff;
+}
+
+form input, form select {
+  display: block;
+  border: 1px solid white !important;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+
+input[type="date"] {
+  color: white;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  cursor: pointer;
+}
+
+select option {
+  color: #101828;
+  background-color: white;
+}
+
+button[type="submit"] {
+  background-color: orange;
+  padding: 10px 20px;
+  color: #101828;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffa6007b;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #ffffff;
+}
+
+table thead tr:first-of-type {
+  background-color: orange;
+  color: #101828;
+}
+
+table tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+table tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
